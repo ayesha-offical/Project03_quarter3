@@ -35,6 +35,8 @@ unit_to = st.selectbox("Convert to:", ["meters", "kilometers", "grams", "kilogra
 
 #button to trigger the button functionality
 
-if st.button("Convert"):
+if st.button("Convert🔄"):
     result = convert_units(value, unit_from, unit_to)  # Call the conversion function
-    st.write(f"Converted Value: {result}")  # Display the result
+    st.write(f"Converted Value🔢: {result}")  # Display the result
+    st.write("-------------------------")
+    st.write("Build by ❤️ [Ayesha Faisal] (https://github.com/ayesha-offical)")
